@@ -1,10 +1,7 @@
-class Pila:   
-    lista=[]
-    tope = 0
-                 
+class Pila:                  
     def __init__(self,tamanio):
-        #self.lista=[]
-        #self.tope=0
+        self.lista=[]
+        self.tope=0
         self.size=tamanio
 
     def push_B(self,dato):
